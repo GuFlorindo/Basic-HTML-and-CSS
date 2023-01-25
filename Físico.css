@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&family=Secular+One&display=swap');
+
+
+
+*{
+    font-family:'Roboto Mono', monospace;
+}
+.titulo{
+    font-family: 'Secular One';
+    text-align: center;
+    font-size:48px;
+    margin-top: 50px;
+    color: azure;
+    text-transform:uppercase ;
+    
+}
+nav{
+    color:black;
+    margin:20px;
+    display: flex;
+    justify-content:space-around;
+}
+a{    
+    text-decoration: none;
+    color:inherit;
+    border:3px solid white;
+    background-color: aliceblue;
+    border-radius: 30px;
+    padding: 5px;
+
+}
+.Nome{
+    color: aliceblue;
+    font-size: 28px;
+
+}
+.linha-horizontal{
+    
+    width: 100%;
+    border: 1px solid rgb(179, 179, 179)
+}
+body{
+    background-color: rgb(44, 44, 44);
+    color:rgb(145, 145, 145);
+    font-size:20px;
+    text-align: center;
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&family=Secular+One&display=swap');
+
+
+
+*{
+    font-family:'Roboto Mono', monospace;
+    margin:0;
+}
+.titulo{
+    font-family: 'Secular One';
+    text-align: center;
+    font-size:48px;
+    color: azure;
+    text-transform:uppercase ;
+    border-left: 6px solid azure;
+    display:inline-block;   
+    letter-spacing: 3px;
+    padding-left: 6px;
+    margin-top: 75px;
+}
+nav a{    
+    text-decoration: none;
+    color:inherit;
+    border:3px solid rgb(44, 44, 44);
+    background-color: rgb(145, 145, 145);
+    border-radius: 30px;
+    padding: 5px;
+
+}
+nav a:hover{
+    background-color:rgb(44, 44, 44);
+}
+body{
+    background-color: rgb(44, 44, 44);
+    color:rgb(145, 145, 145);
+    font-size:20px;
+    text-align: center;
+    overflow-x: hidden;
+}
+nav{
+    color:azure;
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    position: fixed;
+    background-color: aliceblue;
+    padding:10px;
+}
+.Nome{
+    color: black;
+    font-size: 28px;
+
+}
+.linha-horizontal{
+    width: 100%;
+    border: 1px solid rgb(179, 179, 179)
+}
+.img{
+    background-image: url("/img/fd54ae30ff071d0ce06092d7c4d4f492.png");
+    width: 381px;
+    height: 856px;
+    background-size:contain;
+    margin:auto;
+}
+.frases{
+    font-style: italic;
+}
+.container{
+margin: 10px;
+}
+.icones{
+    padding: 0;
+    background-color: aliceblue;
+    border: 0;
+
+}
+.icones:hover{
+    background-color: aliceblue;
+}
